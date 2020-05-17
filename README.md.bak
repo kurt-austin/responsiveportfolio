@@ -3,6 +3,6 @@
 RESPONSIVE PORTFOLIO
 
 This project is my initial attempt at developing a set of responsive web pages.  They are the beginning of a bio.  It contains 3 pages index.html, contact.html, and portfolio.html.
-These pages incorporated Bootstrap CSS framework where applicable.  Each page has links to the other two pages.
+These pages incorporated Bootstrap CSS framework where applicable.
 
 

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kurt Austin Portfolio</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>  
+         <!-- The below code is the Navigation Bar including links to other pages(About, Portfolio, Contact). -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" style="background-color: turquoise; color: white;" href="#">Kurt Austin</a>
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+        </nav>
+         <!-- The below code is the first row cotaining the words Portfolio. -->
+        <main class="container-fluid card">
+            <section class="row">
+                <section class="col-md-6">
+                    <h4>Portfolio</h4>
+                </section>
+            </section>
+        <!-- The below code contains multiple rows with picutres and a tag across the pictures.  I am using custom CSS classes for the wording over the picutre. --> 
+            <section class="row">
+                <article class="col-md-3">  
+                    <a href = "https://kurt-austin.github.io/Homework1/" target="_blank">
+                    <img src="guess_words.jpg" alt="Refactor"></a>
+                    <section class="caption">Refactor</section>
+               </article>
+                <article class="col-md-3">
+                    <img src="rpg_game.jpg" alt="RPG Game" >
+                    <section class="caption">RPG Game</section>
+                </article>
+            </section>
+            <section class="row">
+                <article class="col-md-3">  
+                    <img src="trivia.jpg" alt="Trivia Game" >
+                    <section class="caption">Trivia Game</section>
+               </article>
+                <article class="col-md-3">
+                    <img src="info_widget.jpg" alt="Info Widget">
+                    <section class="caption">Info Widget</section>
+                </article>
+            </section>
+            <section class="row">
+                <article class="col-md-3">  
+                    <img src="rps.jpg" alt="Rock Paper Scissors" >
+                    <section class="caption">Rock Paper Scissors</section>
+               </article>
+            </section>  
+        </main>
+    </body>
+</html>
